@@ -1,0 +1,123 @@
+Frame 1846: 583 bytes on wire (4664 bits), 583 bytes captured (4664 bits) on interface en0, id 0
+    Interface id: 0 (en0)
+        Interface name: en0
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 11, 2020 12:16:44.203670000 CET
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1583925404.203670000 seconds
+    [Time delta from previous captured frame: 0.002233000 seconds]
+    [Time delta from previous displayed frame: 0.002233000 seconds]
+    [Time since reference or first frame: 14.811926000 seconds]
+    Frame Number: 1846
+    Frame Length: 583 bytes (4664 bits)
+    Capture Length: 583 bytes (4664 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http:data-text-lines]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: VMware_d2:f3:a8 (00:0c:29:d2:f3:a8), Dst: Apple_83:18:0f (ac:bc:32:83:18:0f)
+    Destination: Apple_83:18:0f (ac:bc:32:83:18:0f)
+        Address: Apple_83:18:0f (ac:bc:32:83:18:0f)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_d2:f3:a8 (00:0c:29:d2:f3:a8)
+        Address: VMware_d2:f3:a8 (00:0c:29:d2:f3:a8)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 128.39.121.111, Dst: 10.253.7.149
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x02 (DSCP: CS0, ECN: ECT(0))
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..10 = Explicit Congestion Notification: ECN-Capable Transport codepoint '10' (2)
+    Total Length: 569
+    Identification: 0x0780 (1920)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 60
+    Protocol: TCP (6)
+    Header checksum: 0x2915 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 128.39.121.111
+    Destination: 10.253.7.149
+Transmission Control Protocol, Src Port: 80, Dst Port: 54208, Seq: 1, Ack: 546, Len: 517
+    Source Port: 80
+    Destination Port: 54208
+    [Stream index: 7]
+    [TCP Segment Len: 517]
+    Sequence number: 1    (relative sequence number)
+    Sequence number (raw): 2363249013
+    [Next sequence number: 518    (relative sequence number)]
+    Acknowledgment number: 546    (relative ack number)
+    Acknowledgment number (raw): 1814851131
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 235
+    [Calculated window size: 30080]
+    [Window size scaling factor: 128]
+    Checksum: 0x47e9 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - Timestamps: TSval 1384658432, TSecr 906325864
+            Kind: Time Stamp Option (8)
+            Length: 10
+            Timestamp value: 1384658432
+            Timestamp echo reply: 906325864
+    [SEQ/ACK analysis]
+        [iRTT: 0.002763000 seconds]
+        [Bytes in flight: 517]
+        [Bytes sent since last PSH flag: 517]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.008021000 seconds]
+        [Time since previous frame in this TCP stream: 0.002233000 seconds]
+    TCP payload (517 bytes)
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 200 OK\r\n]
+            [HTTP/1.1 200 OK\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Response Version: HTTP/1.1
+        Status Code: 200
+        [Status Code Description: OK]
+        Response Phrase: OK
+    Date: Wed, 11 Mar 2020 11:26:02 GMT\r\n
+    Server: Apache/2.4.29 (Ubuntu)\r\n
+    Content-Length: 312\r\n
+        [Content length: 312]
+    Keep-Alive: timeout=5, max=100\r\n
+    Connection: Keep-Alive\r\n
+    Content-Type: text/html; charset=UTF-8\r\n
+    \r\n
+    [HTTP response 1/1]
+    [Time since request: 0.003923000 seconds]
+    [Request in frame: 1843]
+    [Request URI: http://128.39.121.111/PE1-Resp.php]
+    File Data: 312 bytes
+Line-based text data: text/html (4 lines)
+    <html>\n
+    <body>\n
+     [truncated]Hi!<br/><br/>You have visited the page for the Portfolio Exam - Part 1 (PE1) from your device (IP: 158.38.214.14)<br/> on Wednesday 11th of March 2020 11:26:02 AM<br/> and entered your student id: 's331351' and name: 'Laila Doudouh
+    </html>\n

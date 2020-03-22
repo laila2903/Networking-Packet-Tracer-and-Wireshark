@@ -1,0 +1,732 @@
+A1 to A331
+---------------
+C:\> ping -n 6 10.10.3.76
+
+Pinging 10.10.3.76 with 32 bytes of data:
+
+Reply from 10.10.3.76: bytes=32 time=1ms TTL=128
+Reply from 10.10.3.76: bytes=32 time<1ms TTL=128
+Reply from 10.10.3.76: bytes=32 time<1ms TTL=128
+Reply from 10.10.3.76: bytes=32 time<1ms TTL=128
+Reply from 10.10.3.76: bytes=32 time=9ms TTL=128
+Reply from 10.10.3.76: bytes=32 time=1ms TTL=128
+
+Ping statistics for 10.10.3.76:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 9ms, Average = 1ms
+
+
+
+A1 to B1
+-------------
+C:\> ping -n 6 10.10.0.1
+
+Pinging 10.10.0.1 with 32 bytes of data:
+
+Reply from 10.10.0.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.0.1: bytes=32 time=1ms TTL=126
+Reply from 10.10.0.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.0.1: bytes=32 time=1ms TTL=126
+Reply from 10.10.0.1: bytes=32 time=1ms TTL=126
+Reply from 10.10.0.1: bytes=32 time=16ms TTL=126
+
+Ping statistics for 10.10.0.1:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 16ms, Average = 3ms
+
+
+
+A1 to B351
+--------------
+C:\> ping -n 6 10.10.1.96
+
+Pinging 10.10.1.96 with 32 bytes of data:
+
+Reply from 10.10.1.96: bytes=32 time<1ms TTL=126
+Reply from 10.10.1.96: bytes=32 time<1ms TTL=126
+Reply from 10.10.1.96: bytes=32 time<1ms TTL=126
+Reply from 10.10.1.96: bytes=32 time=1ms TTL=126
+Reply from 10.10.1.96: bytes=32 time=1ms TTL=126
+Reply from 10.10.1.96: bytes=32 time<1ms TTL=126
+
+Ping statistics for 10.10.1.96:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 1ms, Average = 0ms
+
+
+
+
+A1 to C1
+-------------
+C:\> ping -n 6 10.10.4.1
+
+Pinging 10.10.4.1 with 32 bytes of data:
+
+Reply from 10.10.4.1: bytes=32 time=1ms TTL=126
+Reply from 10.10.4.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.4.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.4.1: bytes=32 time=1ms TTL=126
+Reply from 10.10.4.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.4.1: bytes=32 time<1ms TTL=126
+
+Ping statistics for 10.10.4.1:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 1ms, Average = 0ms
+
+
+
+
+A1 to C16
+-------------
+C:\> ping -n 6 10.10.4.16
+
+Pinging 10.10.4.16 with 32 bytes of data:
+
+Reply from 10.10.4.16: bytes=32 time=18ms TTL=126
+Reply from 10.10.4.16: bytes=32 time<1ms TTL=126
+Reply from 10.10.4.16: bytes=32 time=11ms TTL=126
+Reply from 10.10.4.16: bytes=32 time<1ms TTL=126
+Reply from 10.10.4.16: bytes=32 time<1ms TTL=126
+Reply from 10.10.4.16: bytes=32 time=1ms TTL=126
+
+Ping statistics for 10.10.4.16:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 18ms, Average = 5ms
+
+
+
+
+A1 to Internet (128.39.121.111)
+-------------------------------------
+C:\> ping -n 6 128.39.121.111
+
+Pinging 128.39.121.111 with 32 bytes of data:
+
+Reply from 128.39.121.111: bytes=32 time=25ms TTL=254
+Reply from 128.39.121.111: bytes=32 time<1ms TTL=254
+Reply from 128.39.121.111: bytes=32 time<1ms TTL=254
+Reply from 128.39.121.111: bytes=32 time<1ms TTL=254
+Reply from 128.39.121.111: bytes=32 time<1ms TTL=254
+Reply from 128.39.121.111: bytes=32 time=1ms TTL=254
+
+Ping statistics for 128.39.121.111:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 25ms, Average = 4ms
+
+
+
+A331 to A1
+------------
+C:\> ping -n 6 10.10.2.1
+
+Pinging 10.10.2.1 with 32 bytes of data:
+
+Reply from 10.10.2.1: bytes=32 time=1ms TTL=128
+Reply from 10.10.2.1: bytes=32 time<1ms TTL=128
+Reply from 10.10.2.1: bytes=32 time<1ms TTL=128
+Reply from 10.10.2.1: bytes=32 time<1ms TTL=128
+Reply from 10.10.2.1: bytes=32 time<1ms TTL=128
+Reply from 10.10.2.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 10.10.2.1:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 1ms, Average = 0ms
+
+
+A331 to B1
+---------------
+C:\> ping -n 6 10.10.0.1
+
+Pinging 10.10.0.1 with 32 bytes of data:
+
+Reply from 10.10.0.1: bytes=32 time=1ms TTL=126
+Reply from 10.10.0.1: bytes=32 time=1ms TTL=126
+Reply from 10.10.0.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.0.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.0.1: bytes=32 time=1ms TTL=126
+Reply from 10.10.0.1: bytes=32 time=12ms TTL=126
+
+Ping statistics for 10.10.0.1:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 12ms, Average = 2ms
+
+
+A331 to B351
+---------------
+C:\> ping -n 6 10.10.1.96
+
+Pinging 10.10.1.96 with 32 bytes of data:
+
+Reply from 10.10.1.96: bytes=32 time<1ms TTL=126
+Reply from 10.10.1.96: bytes=32 time<1ms TTL=126
+Reply from 10.10.1.96: bytes=32 time<1ms TTL=126
+Reply from 10.10.1.96: bytes=32 time<1ms TTL=126
+Reply from 10.10.1.96: bytes=32 time<1ms TTL=126
+Reply from 10.10.1.96: bytes=32 time<1ms TTL=126
+
+Ping statistics for 10.10.1.96:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+
+A331 to C1
+-------------
+C:\> ping -n 6 10.10.4.1
+
+Pinging 10.10.4.1 with 32 bytes of data:
+
+Reply from 10.10.4.1: bytes=32 time=1ms TTL=126
+Reply from 10.10.4.1: bytes=32 time=1ms TTL=126
+Reply from 10.10.4.1: bytes=32 time=2ms TTL=126
+Reply from 10.10.4.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.4.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.4.1: bytes=32 time<1ms TTL=126
+
+Ping statistics for 10.10.4.1:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 2ms, Average = 0ms
+
+
+A331 to C16
+---------------
+C:\> ping -n 6 10.10.4.16
+
+Pinging 10.10.4.16 with 32 bytes of data:
+
+Reply from 10.10.4.16: bytes=32 time<1ms TTL=126
+Reply from 10.10.4.16: bytes=32 time<1ms TTL=126
+Reply from 10.10.4.16: bytes=32 time=24ms TTL=126
+Reply from 10.10.4.16: bytes=32 time<1ms TTL=126
+Reply from 10.10.4.16: bytes=32 time<1ms TTL=126
+Reply from 10.10.4.16: bytes=32 time<1ms TTL=126
+
+Ping statistics for 10.10.4.16:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 24ms, Average = 4ms
+
+
+A331 to Internet (128.39.121.111)
+-----------------------------------
+C:\> ping -n 6 128.39.121.111
+
+Pinging 128.39.121.111 with 32 bytes of data:
+
+Reply from 128.39.121.111: bytes=32 time<1ms TTL=254
+Reply from 128.39.121.111: bytes=32 time<1ms TTL=254
+Reply from 128.39.121.111: bytes=32 time=2ms TTL=254
+Reply from 128.39.121.111: bytes=32 time=1ms TTL=254
+Reply from 128.39.121.111: bytes=32 time=2ms TTL=254
+Reply from 128.39.121.111: bytes=32 time<1ms TTL=254
+
+Ping statistics for 128.39.121.111:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 2ms, Average = 0ms
+
+
+B1 to A1
+---------------
+C:\>ping -n 6 10.10.2.1
+
+Pinging 10.10.2.1 with 32 bytes of data:
+
+Reply from 10.10.2.1: bytes=32 time=1ms TTL=126
+Reply from 10.10.2.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.2.1: bytes=32 time=1ms TTL=126
+Reply from 10.10.2.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.2.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.2.1: bytes=32 time<1ms TTL=126
+
+Ping statistics for 10.10.2.1:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 1ms, Average = 0ms
+
+
+
+B1 to A331
+---------------------
+C:\> ping -n 6 10.10.3.76
+
+Pinging 10.10.3.76 with 32 bytes of data:
+
+Reply from 10.10.3.76: bytes=32 time=1ms TTL=126
+Reply from 10.10.3.76: bytes=32 time<1ms TTL=126
+Reply from 10.10.3.76: bytes=32 time=1ms TTL=126
+Reply from 10.10.3.76: bytes=32 time<1ms TTL=126
+Reply from 10.10.3.76: bytes=32 time=13ms TTL=126
+Reply from 10.10.3.76: bytes=32 time<1ms TTL=126
+
+Ping statistics for 10.10.3.76:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 13ms, Average = 2ms
+
+
+
+B1 to B351
+---------------
+C:\>ping -n 6 10.10.1.96
+
+Pinging 10.10.1.96 with 32 bytes of data:
+
+Reply from 10.10.1.96: bytes=32 time=1ms TTL=128
+Reply from 10.10.1.96: bytes=32 time<1ms TTL=128
+Reply from 10.10.1.96: bytes=32 time<1ms TTL=128
+Reply from 10.10.1.96: bytes=32 time<1ms TTL=128
+Reply from 10.10.1.96: bytes=32 time<1ms TTL=128
+Reply from 10.10.1.96: bytes=32 time<1ms TTL=128
+
+Ping statistics for 10.10.1.96:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 1ms, Average = 0ms
+
+
+B1 to C1
+----------------
+C:\> ping -n 6 10.10.4.1
+
+Pinging 10.10.4.1 with 32 bytes of data:
+
+Reply from 10.10.4.1: bytes=32 time=18ms TTL=126
+Reply from 10.10.4.1: bytes=32 time=1ms TTL=126
+Reply from 10.10.4.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.4.1: bytes=32 time=14ms TTL=126
+Reply from 10.10.4.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.4.1: bytes=32 time<1ms TTL=126
+
+Ping statistics for 10.10.4.1:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 18ms, Average = 5ms
+
+
+B1 to C16
+----------------
+C:\> ping -n 6 10.10.4.16
+
+Pinging 10.10.4.16 with 32 bytes of data:
+
+Reply from 10.10.4.16: bytes=32 time<1ms TTL=126
+Reply from 10.10.4.16: bytes=32 time<1ms TTL=126
+Reply from 10.10.4.16: bytes=32 time=13ms TTL=126
+Reply from 10.10.4.16: bytes=32 time<1ms TTL=126
+Reply from 10.10.4.16: bytes=32 time<1ms TTL=126
+Reply from 10.10.4.16: bytes=32 time=15ms TTL=126
+
+Ping statistics for 10.10.4.16:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 15ms, Average = 4ms
+
+
+
+B1 to Internet (128.39.121.111)
+------------------------------------
+C:\> ping -n 6 128.39.121.111
+
+Pinging 128.39.121.111 with 32 bytes of data:
+
+Reply from 128.39.121.111: bytes=32 time<1ms TTL=254
+Reply from 128.39.121.111: bytes=32 time<1ms TTL=254
+Reply from 128.39.121.111: bytes=32 time<1ms TTL=254
+Reply from 128.39.121.111: bytes=32 time=1ms TTL=254
+Reply from 128.39.121.111: bytes=32 time<1ms TTL=254
+Reply from 128.39.121.111: bytes=32 time=14ms TTL=254
+
+Ping statistics for 128.39.121.111:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 14ms, Average = 2ms
+
+
+B351 to A1
+-------------
+C:\>ping -n 6 10.10.2.1
+
+Pinging 10.10.2.1 with 32 bytes of data:
+
+Reply from 10.10.2.1: bytes=32 time=1ms TTL=126
+Reply from 10.10.2.1: bytes=32 time=1ms TTL=126
+Reply from 10.10.2.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.2.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.2.1: bytes=32 time=1ms TTL=126
+Reply from 10.10.2.1: bytes=32 time=1ms TTL=126
+
+Ping statistics for 10.10.2.1:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 1ms, Average = 0ms
+
+
+B351 to A331
+---------------
+C:\>ping -n 6 10.10.3.76
+
+Pinging 10.10.3.76 with 32 bytes of data:
+
+Reply from 10.10.3.76: bytes=32 time<1ms TTL=126
+Reply from 10.10.3.76: bytes=32 time<1ms TTL=126
+Reply from 10.10.3.76: bytes=32 time<1ms TTL=126
+Reply from 10.10.3.76: bytes=32 time=1ms TTL=126
+Reply from 10.10.3.76: bytes=32 time=1ms TTL=126
+Reply from 10.10.3.76: bytes=32 time<1ms TTL=126
+
+Ping statistics for 10.10.3.76:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 1ms, Average = 0ms
+
+
+B351 to B1
+--------------
+C:\>ping -n 6 10.10.0.1
+
+Pinging 10.10.0.1 with 32 bytes of data:
+
+Reply from 10.10.0.1: bytes=32 time<1ms TTL=128
+Reply from 10.10.0.1: bytes=32 time=1ms TTL=128
+Reply from 10.10.0.1: bytes=32 time<1ms TTL=128
+Reply from 10.10.0.1: bytes=32 time<1ms TTL=128
+Reply from 10.10.0.1: bytes=32 time=1ms TTL=128
+Reply from 10.10.0.1: bytes=32 time=1ms TTL=128
+
+Ping statistics for 10.10.0.1:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 1ms, Average = 0ms
+
+
+B351 to C1
+-----------
+C:\>ping -n 6 10.10.4.1
+
+Pinging 10.10.4.1 with 32 bytes of data:
+
+Reply from 10.10.4.1: bytes=32 time=1ms TTL=126
+Reply from 10.10.4.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.4.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.4.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.4.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.4.1: bytes=32 time=2ms TTL=126
+
+Ping statistics for 10.10.4.1:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 2ms, Average = 0ms
+
+
+
+B351 to C16
+--------------
+C:\>ping -n 6 10.10.4.16
+
+Pinging 10.10.4.16 with 32 bytes of data:
+
+Reply from 10.10.4.16: bytes=32 time=20ms TTL=126
+Reply from 10.10.4.16: bytes=32 time<1ms TTL=126
+Reply from 10.10.4.16: bytes=32 time<1ms TTL=126
+Reply from 10.10.4.16: bytes=32 time=1ms TTL=126
+Reply from 10.10.4.16: bytes=32 time<1ms TTL=126
+Reply from 10.10.4.16: bytes=32 time<1ms TTL=126
+
+Ping statistics for 10.10.4.16:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 20ms, Average = 3ms
+
+
+B351 to Internet (128.39.121.111)
+-----------------------------------
+C:\>ping -n 6 128.39.121.111
+
+Pinging 128.39.121.111 with 32 bytes of data:
+
+Reply from 128.39.121.111: bytes=32 time<1ms TTL=254
+Reply from 128.39.121.111: bytes=32 time<1ms TTL=254
+Reply from 128.39.121.111: bytes=32 time=2ms TTL=254
+Reply from 128.39.121.111: bytes=32 time<1ms TTL=254
+Reply from 128.39.121.111: bytes=32 time=5ms TTL=254
+Reply from 128.39.121.111: bytes=32 time<1ms TTL=254
+
+Ping statistics for 128.39.121.111:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 5ms, Average = 1ms
+
+
+
+C1 to A1
+------------------
+C:\>ping -n 6 10.10.2.1
+
+Pinging 10.10.2.1 with 32 bytes of data:
+
+Reply from 10.10.2.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.2.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.2.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.2.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.2.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.2.1: bytes=32 time<1ms TTL=126
+
+Ping statistics for 10.10.2.1:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+
+
+C1 to A331
+------------------
+C:\> ping -n 6 10.10.3.76
+
+Pinging 10.10.3.76 with 32 bytes of data:
+
+Reply from 10.10.3.76: bytes=32 time<1ms TTL=126
+Reply from 10.10.3.76: bytes=32 time<1ms TTL=126
+Reply from 10.10.3.76: bytes=32 time<1ms TTL=126
+Reply from 10.10.3.76: bytes=32 time<1ms TTL=126
+Reply from 10.10.3.76: bytes=32 time<1ms TTL=126
+Reply from 10.10.3.76: bytes=32 time<1ms TTL=126
+
+Ping statistics for 10.10.3.76:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+
+
+C1 to B1
+---------------
+C:\>ping -n 6 10.10.0.1
+
+Pinging 10.10.0.1 with 32 bytes of data:
+
+Reply from 10.10.0.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.0.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.0.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.0.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.0.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.0.1: bytes=32 time<1ms TTL=126
+
+Ping statistics for 10.10.0.1:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+
+
+C1 to B351
+----------------
+C:\> ping -n 6 10.10.1.96
+
+Pinging 10.10.1.96 with 32 bytes of data:
+
+Reply from 10.10.1.96: bytes=32 time=1ms TTL=126
+Reply from 10.10.1.96: bytes=32 time<1ms TTL=126
+Reply from 10.10.1.96: bytes=32 time<1ms TTL=126
+Reply from 10.10.1.96: bytes=32 time<1ms TTL=126
+Reply from 10.10.1.96: bytes=32 time=1ms TTL=126
+Reply from 10.10.1.96: bytes=32 time<1ms TTL=126
+
+Ping statistics for 10.10.1.96:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 1ms, Average = 0ms
+
+
+
+C1 to C16
+--------------
+C:\>ping -n 6 10.10.4.16
+
+Pinging 10.10.4.16 with 32 bytes of data:
+
+Reply from 10.10.4.16: bytes=32 time=1ms TTL=128
+Reply from 10.10.4.16: bytes=32 time<1ms TTL=128
+Reply from 10.10.4.16: bytes=32 time=1ms TTL=128
+Reply from 10.10.4.16: bytes=32 time<1ms TTL=128
+Reply from 10.10.4.16: bytes=32 time<1ms TTL=128
+Reply from 10.10.4.16: bytes=32 time<1ms TTL=128
+
+Ping statistics for 10.10.4.16:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 1ms, Average = 0ms
+
+
+
+C1 to Internet (128.39.121.111)
+--------------------------------------
+C:\> ping -n 6 128.39.121.111
+
+Pinging 128.39.121.111 with 32 bytes of data:
+
+Reply from 128.39.121.111: bytes=32 time=1ms TTL=255
+Reply from 128.39.121.111: bytes=32 time<1ms TTL=255
+Reply from 128.39.121.111: bytes=32 time=1ms TTL=255
+Reply from 128.39.121.111: bytes=32 time<1ms TTL=255
+Reply from 128.39.121.111: bytes=32 time<1ms TTL=255
+Reply from 128.39.121.111: bytes=32 time<1ms TTL=255
+
+Ping statistics for 128.39.121.111:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 1ms, Average = 0ms
+
+
+
+C16 to A1
+------------
+C:\>ping -n 6 10.10.2.1
+
+Pinging 10.10.2.1 with 32 bytes of data:
+
+Reply from 10.10.2.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.2.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.2.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.2.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.2.1: bytes=32 time=1ms TTL=126
+Reply from 10.10.2.1: bytes=32 time=1ms TTL=126
+
+Ping statistics for 10.10.2.1:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 1ms, Average = 0ms
+
+
+
+C16 to A331
+--------------
+C:\>ping -n 6 10.10.3.76
+
+Pinging 10.10.3.76 with 32 bytes of data:
+
+Reply from 10.10.3.76: bytes=32 time<1ms TTL=126
+Reply from 10.10.3.76: bytes=32 time<1ms TTL=126
+Reply from 10.10.3.76: bytes=32 time=1ms TTL=126
+Reply from 10.10.3.76: bytes=32 time=1ms TTL=126
+Reply from 10.10.3.76: bytes=32 time<1ms TTL=126
+Reply from 10.10.3.76: bytes=32 time<1ms TTL=126
+
+Ping statistics for 10.10.3.76:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 1ms, Average = 0ms
+
+
+
+C16 to B1
+------------
+C:\>ping -n 6 10.10.0.1
+
+Pinging 10.10.0.1 with 32 bytes of data:
+
+Reply from 10.10.0.1: bytes=32 time=1ms TTL=126
+Reply from 10.10.0.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.0.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.0.1: bytes=32 time=2ms TTL=126
+Reply from 10.10.0.1: bytes=32 time<1ms TTL=126
+Reply from 10.10.0.1: bytes=32 time=8ms TTL=126
+
+Ping statistics for 10.10.0.1:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 8ms, Average = 1ms
+
+
+
+C16 to B351
+-------------
+C:\>ping -n 6 10.10.1.96
+
+Pinging 10.10.1.96 with 32 bytes of data:
+
+Reply from 10.10.1.96: bytes=32 time<1ms TTL=126
+Reply from 10.10.1.96: bytes=32 time<1ms TTL=126
+Reply from 10.10.1.96: bytes=32 time=1ms TTL=126
+Reply from 10.10.1.96: bytes=32 time<1ms TTL=126
+Reply from 10.10.1.96: bytes=32 time<1ms TTL=126
+Reply from 10.10.1.96: bytes=32 time<1ms TTL=126
+
+Ping statistics for 10.10.1.96:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 1ms, Average = 0ms
+
+
+
+C16 to C1
+------------
+C:\>ping -n 6 10.10.4.1
+
+Pinging 10.10.4.1 with 32 bytes of data:
+
+Reply from 10.10.4.1: bytes=32 time<1ms TTL=128
+Reply from 10.10.4.1: bytes=32 time=2ms TTL=128
+Reply from 10.10.4.1: bytes=32 time<1ms TTL=128
+Reply from 10.10.4.1: bytes=32 time=1ms TTL=128
+Reply from 10.10.4.1: bytes=32 time<1ms TTL=128
+Reply from 10.10.4.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 10.10.4.1:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 2ms, Average = 0ms
+
+
+
+C16 to Internet (128.39.121.111)
+-----------------------------------
+C:\>ping -n 6 128.39.121.111
+
+Pinging 128.39.121.111 with 32 bytes of data:
+
+Reply from 128.39.121.111: bytes=32 time=1ms TTL=255
+Reply from 128.39.121.111: bytes=32 time<1ms TTL=255
+Reply from 128.39.121.111: bytes=32 time<1ms TTL=255
+Reply from 128.39.121.111: bytes=32 time=2ms TTL=255
+Reply from 128.39.121.111: bytes=32 time<1ms TTL=255
+Reply from 128.39.121.111: bytes=32 time<1ms TTL=255
+
+Ping statistics for 128.39.121.111:
+    Packets: Sent = 6, Received = 6, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 2ms, Average = 0ms
+
+
+
+R3>show ip route
+Codes: C - connected, S - static, I - IGRP, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2, E - EGP
+       i - IS-IS, L1 - IS-IS level-1, L2 - IS-IS level-2, ia - IS-IS inter area
+       * - candidate default, U - per-user static route, o - ODR
+       P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+     10.0.0.0/8 is variably subnetted, 6 subnets, 3 masks
+R       10.10.0.0/23 [120/1] via 10.10.6.9, 00:00:09, FastEthernet1/0
+R       10.10.2.0/23 [120/1] via 10.10.6.5, 00:00:10, FastEthernet0/0
+C       10.10.4.0/27 is directly connected, FastEthernet6/0
+R       10.10.6.0/30 [120/1] via 10.10.6.5, 00:00:10, FastEthernet0/0
+                     [120/1] via 10.10.6.9, 00:00:09, FastEthernet1/0
+C       10.10.6.4/30 is directly connected, FastEthernet0/0
+C       10.10.6.8/30 is directly connected, FastEthernet1/0
+     128.39.0.0/24 is subnetted, 1 subnets
+C       128.39.121.0 is directly connected, FastEthernet7/0
+
